@@ -1,10 +1,13 @@
+'use strict';
+
 import React from 'react'
-import
-class App extends React.Component {
+
+class MyApp extends React.Component {
 
   constructor (props) {
     super(props)
   }
+
 
   render () {
     return (
@@ -15,4 +18,4 @@ class App extends React.Component {
   }
 }
 
-export default App
+export default MyApp
