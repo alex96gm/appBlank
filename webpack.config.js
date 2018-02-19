@@ -2,7 +2,7 @@ var path = require('path'),
   HtmlWebpackPlugin = require('html-webpack-plugin');
   basePath = __dirname;
 
-const DESTINATION_PATH = 'docs';
+const DESTINATION_PATH = 'dist';
 
 module.exports = {
   resolve: {
