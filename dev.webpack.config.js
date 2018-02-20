@@ -5,7 +5,7 @@ const
     webpackConfig = require('./webpack.config.js'),
     path = require('path');
     module.exports = () =>
-    webpackMerge(commonConfig, {
+    webpackMerge(webpackConfig, {
 
         module: {
             rules: [
